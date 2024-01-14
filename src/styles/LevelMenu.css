@@ -1,0 +1,27 @@
+.level-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  font-size: var(--font-size-lg);
+  cursor: default;
+  flex-wrap: wrap;
+}
+
+.level-menu h5 {
+  text-decoration: underline;
+}
+
+.level-menu span {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .level-menu {
+    flex-direction: row;
+    order: 1;
+    padding: 0.8rem;
+  }
+}

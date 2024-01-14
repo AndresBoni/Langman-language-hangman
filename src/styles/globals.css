@@ -1,0 +1,44 @@
+:root {
+  --font-size-sm: clamp(0.4rem, 0.17vw + 0.76rem, 0.89rem);
+  --font-size-base: clamp(0.6rem, 0.34vw + 0.91rem, 1.19rem);
+  --font-size-md: clamp(0.85rem, 0.61vw + 1.1rem, 1.58rem);
+  --font-size-lg: clamp(1.16rem, 1vw + 1.31rem, 2.11rem);
+  --font-size-xl: clamp(1.55rem, 1.56vw + 1.56rem, 2.81rem);
+  --font-size-xxl: clamp(2.04rem, 2.38vw + 1.85rem, 3.75rem);
+  --font-size-xxxl: clamp(2.65rem, 3.54vw + 2.17rem, 5rem);
+  --background-color: rgb(20, 20, 20);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--background-color);
+  color: #fff;
+  font-size: var(--font-size-base);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.error {
+  color: red;
+}
+
+.selected {
+  color: rgb(48, 152, 255);
+}

@@ -1,0 +1,31 @@
+.language-menu {
+  display: flex;
+  height: auto;
+  justify-content: flex-end;
+  margin: 1rem 2rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.language-menu span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.flag {
+  margin-right: 0.2rem;
+}
+
+@media screen and (max-width: 320px) {
+  .language-menu {
+    justify-content: center;
+    margin: 1rem 0;
+    font-size: var(--font-size-sm);
+  }
+
+  .flag {
+    width: 24px !important;
+    height: 18px !important;
+  }
+}
