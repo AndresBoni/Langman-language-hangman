@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useHangman } from "../Hooks/useHangman";
+import { useHangman } from "../hooks/useHangman";
 import LevelMenu from "./LevelMenu";
 import LanguageMenu from "./LanguageMenu";
 import "../styles/HangmanGame.css";
