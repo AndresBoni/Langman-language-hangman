@@ -2,7 +2,7 @@
 Simple language learning game to help you practise your English, Spanish and Portuguese. Created just for kicks in only one afternoon.
 
 ## Demo
-[![Language Hangman (ReactJs)](https://i.vimeocdn.com/video/1782326446-0d7b2c9c0e8ed4b6704bcb1e4fc84a1c5aba3b1d9b22c220636756d466603ac8-d&_426x240)](https://player.vimeo.com/video/902679495?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479)
+[![Language Hangman (ReactJs)]([https://i.vimeocdn.com/video/1782326446-0d7b2c9c0e8ed4b6704bcb1e4fc84a1c5aba3b1d9b22c220636756d466603ac8-d&_426x240)](https://player.vimeo.com/video/902679495?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479](https://player.vimeo.com/video/902679495?badge=0&autopause=0&player_id=0&app_id=58479))
 
 Check out the demo video on Vimeo [here](https://player.vimeo.com/video/902679495?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479), or visit the live demo [here](https://langman-one.vercel.app/). Alternatively, you can clone the repository and run it locally.
 
